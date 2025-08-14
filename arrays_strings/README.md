@@ -8,4 +8,4 @@
         - Try using a hash table
         - Could a bit vector be usefull ?
         - Can you solve it in O(n log(n)) time ?
-    - [Check solution clicking here](Ex1_IsUnique.java)
+    [Check solution clicking here](Ex1_IsUnique.java)
