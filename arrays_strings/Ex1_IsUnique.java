@@ -6,7 +6,11 @@ import java.util.Scanner;
  *
  * Implement an algorithm to determine if a string has all unique characters.
  * What if you cannot use additional data structures?
- *
+ * 
+ * Hints:
+ *  -   Try a hash table
+ *  -   COULD A BIT VECTOR BE USEFUL ?
+ *  -   Can you solve it in O(n log(n)) time ?
  * Approaches:
  *  1) Sorting approach:
  *     - Sort the characters (QuickSort in-place)
