@@ -36,4 +36,27 @@ EXAMPLE
     -   Do not generate all permutations
     -   What characteristics would a string that is a permutation of a palindrome have ?
     -   Have you tried a hash table? You should be able to get this down to 0( N) time. 
-    -   Can you reduce the space usage by using a bit vector?  
+    -   Can you reduce the space usage by using a bit vector ?
+[CHeck Solution Clicking Here](Ex4_CheckPalindrome.java)
+
+### Ex 05: One Edit Away
+-   There are three types of edits that can be performed on strings: insert a character,
+remove a character, or replace a character. Given two strings, write a function to check if they are
+one edit (or zero edits) away.
+-   EXAMPLE
+        pale, ple -> true
+        pales, pale -> true
+        pale, bale -> true
+        pale, bake -> false   
+-   Hints:
+    -   Start with the easy thing. Can you check each of the conditions separately? 
+    -   What is the relationship between the "insert character" option and the "remove character" option? Do these need to be two separate checks? 
+    -   Can you do all three checks in a single pass?
+[Check SOlution Clicking Here](Ex5_OneAway.java)
+
+### Ex 06: String Compression
+-   Implement a method to perform basic string compression using the counts
+of repeated characters. For example, the string aabcccccaaa would become a2blc5a3. If the
+"compressed" string would not become smaller than the original string, your method should return
+the original string. You can assume the string has only uppercase and lowercase letters (a - z). 
+-   
