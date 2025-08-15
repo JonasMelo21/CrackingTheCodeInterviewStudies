@@ -65,3 +65,5 @@ the original string. You can assume the string has only uppercase and lowercase 
     -   Be careful that you aren't repeatedly concatenating strings together. This can be very
 inefficient. 
     -   Do the easy thing first. Compress the string, then compare the lengths
+
+[Check SOlution in Java Code Clicking Here](ExStringCompression.java)
