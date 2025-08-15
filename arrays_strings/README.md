@@ -66,4 +66,4 @@ the original string. You can assume the string has only uppercase and lowercase 
 inefficient. 
     -   Do the easy thing first. Compress the string, then compare the lengths
 
-[Check SOlution in Java Code Clicking Here](ExStringCompression.java)
+[Check SOlution in Java Code Clicking Here](Ex6_StringCompression.java)
