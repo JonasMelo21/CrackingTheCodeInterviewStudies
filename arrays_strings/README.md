@@ -37,6 +37,7 @@ EXAMPLE
     -   What characteristics would a string that is a permutation of a palindrome have ?
     -   Have you tried a hash table? You should be able to get this down to 0( N) time. 
     -   Can you reduce the space usage by using a bit vector ?
+
 [CHeck Solution Clicking Here](Ex4_CheckPalindrome.java)
 
 ### Ex 05: One Edit Away
@@ -52,11 +53,15 @@ one edit (or zero edits) away.
     -   Start with the easy thing. Can you check each of the conditions separately? 
     -   What is the relationship between the "insert character" option and the "remove character" option? Do these need to be two separate checks? 
     -   Can you do all three checks in a single pass?
-[Check SOlution Clicking Here](Ex5_OneAway.java)
+
+[Check Solution Clicking Here](Ex5_OneAway.java)
 
 ### Ex 06: String Compression
 -   Implement a method to perform basic string compression using the counts
 of repeated characters. For example, the string aabcccccaaa would become a2blc5a3. If the
 "compressed" string would not become smaller than the original string, your method should return
 the original string. You can assume the string has only uppercase and lowercase letters (a - z). 
--   
+-   Hints:
+    -   Be careful that you aren't repeatedly concatenating strings together. This can be very
+inefficient. 
+    -   Do the easy thing first. Compress the string, then compare the lengths
